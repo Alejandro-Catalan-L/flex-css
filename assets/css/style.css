@@ -1,0 +1,51 @@
+.nombre-producto{
+    margin: 0px;
+  color: #707070;
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 16px
+}
+
+.direccion{
+    margin: 0px;
+    color: #707070;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px
+  }
+
+  .card-title{
+
+    
+    color: #212529;
+    font-family: 'Raleway', sans-serif;
+  
+    font-size: 20px
+
+  }
+
+  .color{
+
+    background-color: #28a745;
+  }
+
+  .text-success{
+    font-size: 20px
+  }
+
+  .precios{
+
+    text-align: right;
+  }
+
+  .imagen-logo{
+
+
+   padding: 0.4%;
+  }
+.text{
+    margin: 0px;
+    color: #707070;
+    font-family: 'Roboto', light;
+    font-size: 16px
+
+}
