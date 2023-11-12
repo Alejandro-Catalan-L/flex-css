@@ -1,51 +1,49 @@
-.nombre-producto{
-    margin: 0px;
-  color: #707070;
-  font-family: 'Raleway', sans-serif;
-
-  font-size: 16px
+.card-title {
+  color: #212529;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+.fondo-section {
+  height: 600px;
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.direccion{
-    margin: 0px;
-    color: #707070;
-    font-family: 'Raleway', sans-serif;
-    font-size: 13px
-  }
 
-  .card-title{
+.colortexto{
 
-    
-    color: #212529;
-    font-family: 'Raleway', sans-serif;
-  
-    font-size: 20px
+  color: #3a7ab9;
+  background-color: #4f4f4f;
+}
+.fotoportada {
+  height: 300px;
+  width: 300px;
+  /* vh o porcentaje */
+  image-rendering: auto;
+  /* margin-top: 50px; */
+  border-radius: 50%;
+  border: 3px solid rgb(255, 255, 255);
+}
 
-  }
+.color {
+  background-color: #4f4f4f;
+}
 
-  .color{
+.text-success {
+  font-size: 20px;
+}
 
-    background-color: #4f4f4f;
-  }
+.imagen-logo {
+  padding: 0.4%;
+}
+.text {
+  margin: 0px;
+  color: #707070;
+  font-family: "Roboto", light;
+  font-size: 16px;
+}
 
-  .text-success{
-    font-size: 20px
-  }
-
-  .precios{
-
-    text-align: right;
-  }
-
-  .imagen-logo{
-
-
-   padding: 0.4%;
-  }
-.text{
-    margin: 0px;
-    color: #707070;
-    font-family: 'Roboto', light;
-    font-size: 16px
-
+.pie {
+  background-color: #707070;
 }
