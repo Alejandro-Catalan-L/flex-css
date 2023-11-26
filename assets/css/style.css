@@ -1,45 +1,123 @@
-.card-title {
+
+.informacion h3{
+
   color: #212529;
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  margin-left: 5px;
+
 }
-.fondo-section {
-  height: 600px;
-  background-image: url("../img/fondo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+.informacion h4{
+
+  color:   #BEC1BB;
+ font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+ 
+  
+}
+
+.sub-2 p{
+  font-size: 75px;
+  margin-left: 20px;
+padding-left: 1%;
+
+}
+.clase-flex{
+  display: flex;
+  align-items: center;
+}
+.clase-flexcolum
+{
+  
+  flex-direction: column;
+}
+
+.clase-flexrow{
+  flex-direction: row;
+}
+
+.miBoton{
+  
+  padding: 40px;
+
+
+  font-size: 30px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 90px;
+  margin-right: 30px;
+  height: 5px;
+background-color: #A491D2;
+}
+
+
+.img-contact{
+
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin-left: 5px ;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contenido-contacto{
+  width: 500px;
+  padding: 30px;
+  min-height: 100vh;
+  border: 1px solid red;
+
+}
+.perfil{
+
+  justify-content: space-between;
+
+  border-bottom: grey 2px solid;
+
+}
+
+.informacion{
+
+  margin-left: 15px ;
+  
+}
+
+
+.informacion p{
+
+  margin-left: 3px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.contenido-principal h1{
+  font-size: 75px;
+ 
+}
+
+.contenido-principal{
+
+  min-height: 100vh;
+  align-content: center;
+  justify-content: center;
+}
+.contenido-principal p{
+align-items: center;
+  justify-content: center;
+  border-left: 50px;
+  font-size: 35px;
 }
 
 
 
-.fotoportada {
-  height: 301px;
-  width: 275px;
-  /* vh o porcentaje */
-  image-rendering: auto;
-  /* margin-top: 50px; */
-  border-radius: 50%;
-  border: 3px solid rgb(255, 255, 255);
-}
 
-.color {
-  background-color: #4f4f4f;
-}
 
-.text-success {
-  font-size: 20px;
-}
-
-.imagen-logo {
-  padding: 0.4%;
-}
-.text {
-  margin: 0px;
-  color: #707070;
-  font-family: "Roboto", light;
-  font-size: 16px;
-}
-
-.pie {
-  background-color: #707070;
-}
